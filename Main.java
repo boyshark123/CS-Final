@@ -1,12 +1,11 @@
 import javax.sound.midi.*;
 
-import jdk.tools.jimage.Main;
 
 public class Main{
     public static void main (String args[]){
         
         // Midi
-        Main player = new Main
+        Main player = new Main();
 
         /* 
         player.setInstrument (Instruments.GUITAR);
@@ -25,6 +24,6 @@ public class Main{
         
         MIDIPlayer.rest(Notes.NOTE_WHOLE);
         */ 
-        
+
     }
 }
