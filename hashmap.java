@@ -51,7 +51,7 @@ public class hashmap {
         String leavingPara = "'“You say goodbye to the Baboons and the Apes and the orangutan sitting in a corner who refuses to turn around. You say goodbye to the Elephants and Rhinos and Hippos who clearly don’t want to make any appearances today. You give a quick wave to the lions, because they’re cats and couldn’t care less. You say goodbye to the stone archway as you rejoin the massive, milling crowds, headed back to a parking lot where you’ll surely get lost for 15 minutes trying to find your car. What a normal day at the zoo!'";
 
         // object declaration
-        Exhibits animalExhibitInformation = new Exhibits();
+        exhibits animalExhibitInformation = new exhibits();
         
         // Loop that takes locations until they reach the end
         while(!currentRoom.equals("end")){
@@ -73,22 +73,22 @@ public class hashmap {
             currentRoom = currentRoomLocation.nextLine();
 
             if (currentRoom.equals("start")){
-                System.out.println(entrancePara);
+                animalExhibitInformation.startPara();
                 StdAudio.play(“crowd.wav”);
             } else if(currentRoom.equals("exhibit1")){
-                System.out.println(baboonPara);
+                animalExhibitInformation.exhibit1Para();
                 StdAudio.play(“Baboon_monkey.wav”);
             } else if(currentRoom.equals("exhibit2")){
-                System.out.println(elephantPara);
+                animalExhibitInformation.exhibit2Para();
                 StdAudio.play(“elephant.wav”);
             } else if(currentRoom.equals("exhibit3")){
-                System.out.println(rhinoPara);
+                animalExhibitInformation.exhibit3Para();
                 StdAudio.play(“rhinos.wav”);
             } else if(currentRoom.equals("exhibit4")){
-                System.out.println(lionsPara);
+                animalExhibitInformation.exhibit4Para();
                 StdAudio.play(“lion.wav”);
             } else if(currentRoom.equals("end")){
-                System.out.println(leavingPara);
+                animalExhibitInformation.endPara();
                 StdAudio.play(“crowd.wav”);
             } else {
                 System.out.println("No information on this exhibit.");

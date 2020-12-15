@@ -1,4 +1,4 @@
-public class Exhibits {
+public class exhibits {
     String exhibitNumber;
 
     public void startPara(){
