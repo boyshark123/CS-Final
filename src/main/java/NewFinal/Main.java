@@ -61,7 +61,7 @@ public static void main(String[] args) {
             System.out.println("Where do you wish to go?");
             Scanner currentRoomLocation = new Scanner(System.in);
             
-            currentRoom= currentRoomLocation.nextLine();
+            currentRoom = currentRoomLocation.nextLine();
             
 
             if (currentRoom.equals("start")){
