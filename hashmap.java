@@ -50,6 +50,18 @@ public class hashmap {
             System.out.println("LOCATION: " + currentRoom);
             System.out.println("What room will you enter?");
 
+            if (currentRoom.equals(“start”){
+                System.out.println(“”);
+            } else if(currentRoom.equals(“exhibit 1”){
+                System.out.println(“”);
+            } else if(currentRom.equals(“exhibit 2”){
+                System.out.println(“”);
+            } else if(currentRoom.equals(“exhibit 3”){
+                System.out.println(“”);
+            } else if(currentRoom.equals(“exhibit 4”){
+                System.out.println(“”);
+            }
+
             // Display room options
             for(int i = 0; i < nextSteps.length; i++){
                 System.out.println("- " + nextSteps[i]);
