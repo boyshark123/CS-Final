@@ -62,24 +62,25 @@ public class hashmap {
             System.out.println("Where do you wish to go?");
             currentRoom = currentRoomLocation.nextLine();
 
+            // Check rooms for appropriate information and sounds
             if (currentRoom.equals("start")){
                 animalExhibitInformation.startPara();
-                StdAudio.play("crowd.wav");
+                
             } else if(currentRoom.equals("exhibit1")){
                 animalExhibitInformation.exhibit1Para();
-                StdAudio.play("Baboon_monkey.wav");
+                
             } else if(currentRoom.equals("exhibit2")){
                 animalExhibitInformation.exhibit2Para();
-                StdAudio.play("elephant.wav");
+                
             } else if(currentRoom.equals("exhibit3")){
                 animalExhibitInformation.exhibit3Para();
-                StdAudio.play("rhinos.wav");
+                
             } else if(currentRoom.equals("exhibit4")){
                 animalExhibitInformation.exhibit4Para();
-                StdAudio.play("lion.wav");
+                
             } else if(currentRoom.equals("end")){
                 animalExhibitInformation.endPara();
-                StdAudio.play("crowd.wav");
+               
             } else {
                 System.out.println("No information on this exhibit.");
             }
