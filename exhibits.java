@@ -22,6 +22,6 @@ public class Exhibits {
     }
 
     public void endPara(){
-        System.out.println("'You say goodbye to the Baboons and the Apes and the Orangutang sitting in a corner who refuses to turn around. You say goodbye to the Elephants and Rhinos and Hippos who clearly don’t want to make any appearances today. You give a quick wave to the lions, because they’re cats and couldn’t care less. You say goodbye to the stone archway as you rejoin the massive, milling crowds, headed back to a parking lot where you’ll surely get lost for 15 minutes trying to find your car. What a normal day at the zoo!'");
+        System.out.println("'You say goodbye to the Baboons and the Apes and the orangutan sitting in a corner who refuses to turn around. You say goodbye to the Elephants and Rhinos and Hippos who clearly don’t want to make any appearances today. You give a quick wave to the lions, because they’re cats and couldn’t care less. You say goodbye to the stone archway as you rejoin the massive, milling crowds, headed back to a parking lot where you’ll surely get lost for 15 minutes trying to find your car. What a normal day at the zoo!'");
     }
 }
