@@ -9,9 +9,7 @@ public class hashmap {
         HashMap<String, String> places = new HashMap<String, String>();
         HashMap<String, String[]> moves = new HashMap<String, String[]>();
 
-        // List the rooms
-<<<<<<< HEAD
-    
+        // List the room
         places.put("start", "Welcome to our Fantastic Zoo! Here are some of our newest exhibits!");
         places.put("exhibit1", "Witness our time-limited, Gelada Baboons! Week Only Event!");
         places.put("exhibit2", "Be careful! You are about to enter the rhino's territory! Observe this majestic creature, and stay on her good side!");
