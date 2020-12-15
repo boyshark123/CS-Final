@@ -10,12 +10,12 @@ public class hashmap {
         HashMap<String, String[]> moves = new HashMap<String, String[]>();
 
         // List the rooms
-        places.put("start", "Zoo Entrance.");
-        places.put("exhibit 1", "Baboon.");
-        places.put("exhibit 2", "Rhino.");
-        places.put("exhibit 3", "Lion.");
-        places.put("exhibit 4", "Elephant.");
-        places.put("end", "End of the Zoo");
+        places.put("start", "Welcome to our Fantastic Zoo! Here are some of our newest exhibits!");
+        places.put("exhibit 1", "Witness our time-limited, Gelada Baboons! Week Only Event!");
+        places.put("exhibit 2", "Be careful! You are about to enter the rhino's territory! Observe this majestic creature, and stay on her good side!");
+        places.put("exhibit 3", "Behind the trees you may see the king of the jungle prowling, resist the urge to feel his mane, he scratches!");
+        places.put("exhibit 4", "Stand Clear! Some of the biggest animals are walking, but they're nice! Come pet an elephant today.");
+        places.put("end", "This is a sneak peak to many of our many other exhibits. Come by Today!");
                 
         // Establish moves
         String[] startMoves = {"start", "exhibit 1"}; 
