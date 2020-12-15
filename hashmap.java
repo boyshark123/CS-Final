@@ -1,6 +1,8 @@
 //package hashmap;
 import java.util.HashMap;
 import java.util.Scanner;
+import edu.princeton.cs.algs4.*;
+
 
 public class hashmap { 
     
