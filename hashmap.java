@@ -1,7 +1,7 @@
 //package hashmap;
 import java.util.HashMap;
 import java.util.Scanner;
-//import edu.princeton.cs.algs4.*;
+import edu.princeton.cs.algs4.*;
 
 public class hashmap { 
     
@@ -51,7 +51,6 @@ public class hashmap {
 
             // Prompt user input
             System.out.println("LOCATION: " + currentRoom);
-            System.out.println("What room will you enter?");
 
             // Display room options
             for (int i = 0; i < nextSteps.length; i++){
@@ -65,22 +64,22 @@ public class hashmap {
 
             if (currentRoom.equals("start")){
                 animalExhibitInformation.startPara();
-                //StdAudio.play(“crowd.wav”);
+                StdAudio.play("crowd.wav");
             } else if(currentRoom.equals("exhibit1")){
                 animalExhibitInformation.exhibit1Para();
-                //StdAudio.play(“Baboon_monkey.wav”);
+                StdAudio.play("Baboon_monkey.wav");
             } else if(currentRoom.equals("exhibit2")){
                 animalExhibitInformation.exhibit2Para();
-                //StdAudio.play(“elephant.wav”);
+                StdAudio.play("elephant.wav");
             } else if(currentRoom.equals("exhibit3")){
                 animalExhibitInformation.exhibit3Para();
-                //StdAudio.play(“rhinos.wav”);
+                StdAudio.play("rhinos.wav");
             } else if(currentRoom.equals("exhibit4")){
                 animalExhibitInformation.exhibit4Para();
-                //StdAudio.play(“lion.wav”);
+                StdAudio.play("lion.wav");
             } else if(currentRoom.equals("end")){
                 animalExhibitInformation.endPara();
-                //StdAudio.play(“crowd.wav”);
+                StdAudio.play("crowd.wav");
             } else {
                 System.out.println("No information on this exhibit.");
             }
